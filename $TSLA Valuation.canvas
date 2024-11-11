@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"141de45433ba2a51","type":"group","x":420,"y":120,"width":1760,"height":1200,"label":"Robotaxi"},
+		{"id":"3d995179be752d93","type":"group","x":-340,"y":-640,"width":700,"height":1240,"label":"Fundamentals"},
+		{"id":"d7070b79f8afef5e","type":"group","x":420,"y":-640,"width":1100,"height":680,"label":"FSD + Insurance"},
+		{"id":"2bda1c6d9f855948","type":"file","file":"💬 Thinking/$TSLA Valuation Key Assumptions.md","x":-340,"y":-1120,"width":1076,"height":380},
+		{"id":"5cc5905946a12e94","type":"text","text":"$ TSLA 2024 Q3 Earnings\n\nRevenue:\n- Automotive: 18.8B, profit margin 19.8%\n- Reg credit: 0.7B\n- Energy: 2.4B, profit margin 30%\n- Services: 2.8B (FSD 300m)\n\nNet profit: 2.2B","x":-160,"y":-627,"width":487,"height":320},
+		{"id":"0bc57f72bc0d188d","type":"text","text":"2-yr Outlook:\n\n$TSLA Outstanding Shares: 3.2B\nCurrent EPS (2024 Q3): 3.66\nExpected EPS by late 2026 (base case): 5.32, Net profit breakdown (quarterly):\n- Automotive: unchanged\n- Reg credit: unchanged\n- Energy: +350m\n- Service: +650m","x":-316,"y":-232,"width":400,"height":343},
+		{"id":"9316be107916ab04","type":"text","text":"Fair Price = 266\n(Forward P/E = 50)","x":137,"y":-223,"width":190,"height":92,"color":"2"},
+		{"id":"95d80e9233ca1e8b","type":"text","text":"Fair Price = 750/1000 \n(with/w.o. 3% inflation)\n(Forward P/E = 50)","x":-340,"y":314,"width":224,"height":112,"color":"2"},
+		{"id":"f84609b265e3dc16","type":"text","text":"10-yr Outlook:\n\nExpected EPS by 2034 (base case): 15.0\nNet profit breakdown (quarterly):\n- Automotive: unchanged\n- Reg credit: zero\n- Energy: 5B\n- FSD+Insurance: 6B\n- Robotaxi: 30B","x":-51,"y":200,"width":378,"height":340},
+		{"id":"4bf5ff9754d2c4fe","type":"text","text":"Scenario:\nYou are a CA/TX resident and drive 15k miles per year. Your total expense would be around 10k.\nAssume you buy a Tesla model 3 for 32k in 2026 (incl. federal EV credit, excl. CA CVRP), with unsupervised FSD and Tesla insurance subscribed for $169 per month.\nCar maintenance is $300-500 per year.\nElectricity costs $0.04-0.06 per mile.\nAfter 5 years, you can trade in your used model 3 for around 19k. We can be conservative and assume a trade-in value for 15k only.\nTotal expense per year: (32000-15000)/5 + 15000x0.05 + 169x12 + 400 = $6578","x":960,"y":-600,"width":518,"height":372},
+		{"id":"1bfb96615878709f","type":"text","text":"By 2026, Tesla's FSD + Insurance revenue should hit 600m per quarter. The growth comes from:\n1. New car sales: 167k+ per quarter, 50%+ would take FSD\n2. Existing car subscription: to 35% take rate","x":960,"y":-202,"width":518,"height":200},
+		{"id":"1b13d705f1804c63","type":"text","text":"By late 2026, I expect Tesla Robotaxi to take 1% of the total CA+TX mileage (6B, half from Uber's market share and 3B from people changing behaviours), with the cost per mile of $0.6 and a profit margin of 80%.\nThat would add around 360m to quarterly profit.\n\nElaborate on \"change of behaviour\":\nInstead of upgrading to a new car, 5% of the population decide to use robotaxi services for daily life. This could be typical for people who don't drive that much, or \"the 2nd car\" in the family. assuming 4k mileage only per year:\n\n15.5m x 5% x 4k = 3.1B miles\n\nUber driver typically drives 60k miles a year, robotaxi can easily double that. Assuming 100k per year, we need 31k robotaxis to meet the demand!","x":500,"y":180,"width":420,"height":560},
+		{"id":"bb17bc3120d42fd8","type":"text","text":"New Car Sales:\nTotal (2023): 15.5m\nTesla (2023): 650k\n\nTotal number of light vehicles: 290m\n\nMy verdict is that total number of vehicles in US should decrease over the next decades as less number of robotaxis can serve equal or more mileages demand by the consumers. I expect by 2034 this number should be around 250-270m.\n\nIn 10 years, we can expect Tesla fleet to grow towards 15m, which still only counts for 5-6% of the total vehicles. 2.5m robotaxis will serve at least 150B mileage by 2034, which is very conservative (only 5% of total mileage in US).","x":500,"y":860,"width":664,"height":360},
+		{"id":"eac21f26bb45de0b","type":"text","text":"$UBER 2024 Q3\nMarket cap: 150B\nRevenue: 11B\nProfit margin: 30% for mobility, 18% for UberEats\nDriver expense: 40-60% of revenue per trip\nProfit per mile: $0.2 to $0.25\nRevenue per mile: $1 to $1.2","x":1660,"y":140,"width":427,"height":200},
+		{"id":"52e7c0c3a4363a6e","type":"text","text":"ICE Car Cost Per Mile (US)\nDepreciation: 0.2 - 0.3\nMaintenance: 0.1 - 0.15\nFuel: 0.1 - 0.15\nInsurance: 0.1 - 0.15\nTotal: 0.5 - 0.75\n\nIRS standard mileage rate (2023): $0.655","x":1660,"y":420,"width":427,"height":240},
+		{"id":"4234de4867613b0a","type":"text","text":"Total Mileage (US, 2023): 3.26T\nCA+TX Mileage: 600B (20% of total, similar as population)\nAvg Mileage per person annually (US): 12k-18k\nUber Mileage (global, 2023): 45-50B","x":1164,"y":340,"width":400,"height":140},
+		{"id":"92dcf78a40faea69","type":"text","text":"Eureka moment: robotaxi cost per mile < $0.6","x":1164,"y":740,"width":970,"height":60,"color":"1"},
+		{"id":"a4ff7fe88d22975c","type":"text","text":"Tesla Fleet Size (US only): 2.5m\nFSD Take Rate: 24% (incl. one-time buyer + subs)\nFSD Fleet Size (US): 600k","x":472,"y":-600,"width":325,"height":133},
+		{"id":"036021c43fdd612d","type":"text","text":"Eureka moment: FSD sub + Tesla insurance < $169","x":472,"y":-227,"width":435,"height":50,"color":"1"},
+		{"id":"c87183b47b14c1c8","type":"text","text":"Average Car Insurance (monthly): $169\nTesla Own insurance (monthly): $169","x":472,"y":-384,"width":395,"height":77}
+	],
+	"edges":[
+		{"id":"40af16821a4b598e","fromNode":"5cc5905946a12e94","fromSide":"bottom","toNode":"0bc57f72bc0d188d","toSide":"top"},
+		{"id":"f9420ad73b106739","fromNode":"1b13d705f1804c63","fromSide":"left","toNode":"0bc57f72bc0d188d","toSide":"right"},
+		{"id":"a47588aedd622a9d","fromNode":"4234de4867613b0a","fromSide":"right","toNode":"52e7c0c3a4363a6e","toSide":"left"},
+		{"id":"3c92a3ad53b61040","fromNode":"eac21f26bb45de0b","fromSide":"left","toNode":"4234de4867613b0a","toSide":"right"},
+		{"id":"605aac86f9fc80c5","fromNode":"52e7c0c3a4363a6e","fromSide":"bottom","toNode":"92dcf78a40faea69","toSide":"top"},
+		{"id":"a6e89e97eedac0b4","fromNode":"92dcf78a40faea69","fromSide":"top","toNode":"1b13d705f1804c63","toSide":"right"},
+		{"id":"ee52c5fd7012993f","fromNode":"1b13d705f1804c63","fromSide":"bottom","toNode":"bb17bc3120d42fd8","toSide":"top"},
+		{"id":"b480dc2bb7defbe8","fromNode":"0bc57f72bc0d188d","fromSide":"bottom","toNode":"f84609b265e3dc16","toSide":"top"},
+		{"id":"f94b58504001d1ee","fromNode":"bb17bc3120d42fd8","fromSide":"left","toNode":"f84609b265e3dc16","toSide":"right"},
+		{"id":"aefc9df08eb18c44","fromNode":"a4ff7fe88d22975c","fromSide":"bottom","toNode":"c87183b47b14c1c8","toSide":"top"},
+		{"id":"e01bba61e04891e2","fromNode":"c87183b47b14c1c8","fromSide":"bottom","toNode":"036021c43fdd612d","toSide":"top"},
+		{"id":"17bd3ad8cc21717d","fromNode":"036021c43fdd612d","fromSide":"bottom","toNode":"1bfb96615878709f","toSide":"left"},
+		{"id":"87ded164c2138f27","fromNode":"1bfb96615878709f","fromSide":"bottom","toNode":"0bc57f72bc0d188d","toSide":"right"},
+		{"id":"0c16ce4c42291a84","fromNode":"0bc57f72bc0d188d","fromSide":"right","toNode":"9316be107916ab04","toSide":"left"},
+		{"id":"c84b86880b94dea2","fromNode":"f84609b265e3dc16","fromSide":"left","toNode":"95d80e9233ca1e8b","toSide":"right"}
+	]
+}
